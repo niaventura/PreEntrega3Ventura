@@ -1,0 +1,42 @@
+.logo {
+    height: 55px;
+    width: 140px;
+}
+
+.padding {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.header .navlinks li {
+    display: inline-block;
+    color: black;
+    padding: 0 40px;
+}
+
+.header .navlinks li:hover {
+    transform: scale(1.1);
+}
+
+.header .navlinks a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header .btn button {
+    font-weight: 22px;
+    color: black;
+    padding: 9px 25px;
+    background-color: rgb(203, 222, 255);;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s
+}
+
+.header .btn button:hover {
+    background-color: rgb(203, 222, 255);;
+    color: rgb(129, 159, 214);
+    transform: scale(1.1);
+}

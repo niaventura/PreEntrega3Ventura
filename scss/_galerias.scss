@@ -1,0 +1,17 @@
+@mixin galeria {
+    height: 250px;
+    width: 250px;
+}
+
+.discos .portada {
+    @include galeria;
+}
+
+.fotos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
